@@ -13,6 +13,8 @@
 	} else {
 		echo $_SESSION['htlsession'];
 	}
+
+	echo "string";
 	?>
 </body>
 </html>
