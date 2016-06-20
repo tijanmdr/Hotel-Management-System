@@ -8,11 +8,11 @@
 	<h2>Dashboard</h2>
 	
 	<?php
-		if ($_SESSION['htlsession']) {
-			echo "Session Correct";
-		} else {
-			echo $_SESSION['htlsession'];
-		}
+	if ($_SESSION['htlsession']) {
+		echo "Session Correct";
+	} else {
+		echo $_SESSION['htlsession'];
+	}
 	?>
 </body>
 </html>
