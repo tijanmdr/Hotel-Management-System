@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Index Page
+RewriteRule index public/index.php
+
+# Dashboard Page
+RewriteRule dashboard public/dashboard.php
+
+# Login Check Page
+RewriteRule login public/login.php
